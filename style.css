@@ -7,12 +7,11 @@
 header {
     display: flex;
     width: 100vw;
-    height: 20vw;
-
+    height: 7vw;
 }
 
 .decouvrir {
-    margin-left: 30vw;
+    margin-left: 29vw;
     margin-top: 5vh;
 }
 
@@ -50,4 +49,13 @@ header {
 
 @viewport {
     width: device-width;
-  }
+}
+
+.logo {
+    margin-left: 1vw;
+}
+
+.presentation {
+    background-image: url(/home/yoann/Git/Cr-er-une-interface-IHM-One-page/presentation.png);
+    background-repeat: no-repeat;
+}
