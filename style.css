@@ -1,6 +1,7 @@
 * { 
     margin:0;
     padding:0;
+    background-color:rgb(253 241 184);
 }
 
 header {
@@ -10,9 +11,43 @@ header {
 
 }
 
-.decouvrir a {
-    margin-left: 60vw;
+.decouvrir {
+    margin-left: 30vw;
+    margin-top: 5vh;
 }
 
+.telecharger {
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
 
+.contactez {
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
 
+.decouvrir a {
+    text-decoration: none;
+    color: #1C0909;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.telecharger a {
+    text-decoration: none;
+    color: #1C0909;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.contactez a {
+    text-decoration: none;
+    color: #1C0909;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@viewport {
+    width: device-width;
+  }
