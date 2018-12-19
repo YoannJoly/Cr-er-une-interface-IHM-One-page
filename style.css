@@ -150,3 +150,53 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #242320
 }
+
+.download {
+    display: flex;
+}
+
+.android h2 {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #242320
+}
+
+.ios h2 {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #242320
+}
+
+.android img {
+    width: 500px;
+    height: 160px;
+    border-radius: 30px;
+}
+
+.ios img {
+    width: 500px;
+    height: 160px;
+    border-radius: 30px;
+}
+
+.ios {
+    margin-left: 10vw;
+}
+
+.android:hover button {
+    filter: invert(100%);
+}
+
+.ios:hover button {
+    filter: invert(100%)
+}
+
+.android button {
+    border-radius: 30px;
+}
+
+.ios button {
+    border-radius: 30px;
+}
