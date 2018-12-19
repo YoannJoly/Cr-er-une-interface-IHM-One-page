@@ -1,7 +1,7 @@
 * { 
     margin:0;
     padding:0;
-    background-color:rgb(253 241 184);
+    background-color:rgba(242, 251, 184, 1);
 }
 
 header {
@@ -58,12 +58,13 @@ header {
 .presentation {
     background-image: url(presentation.png);
     background-repeat: no-repeat;
-    margin-left: 5vw;
+    margin-left: 0vw;
     margin-top: 5vh;
     width: 100vw;
     height: 459px;
     z-index: 1;
     position: relative;
+    background-color: rgba(243, 248, 251, 1);
 }
 
 .titrepres {
@@ -75,7 +76,8 @@ header {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4em;
-    width: 50%
+    width: 50%;
+    margin-left: 5vw;
 }
 
 .buttondown {
@@ -262,16 +264,23 @@ footer {
     margin-top: 10vh;
     justify-content: space-around;
     display: flex;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 footer a {
     text-decoration: none;
-    color: grey
+    color: grey;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 footer label {
     text-decoration: none;
-    color: grey
+    color: grey;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+footer input {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 
