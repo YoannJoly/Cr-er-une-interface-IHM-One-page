@@ -100,7 +100,7 @@ header {
 
 .decouverte {
     width: 100vw;
-    height: 100vh;
+    height: 35vh;
 }
 
 .decouverte h1 {
@@ -143,4 +143,10 @@ header {
 
 .pic3 img {
     float: left;
+}
+
+.down h1 {
+    margin-top: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #242320
 }
