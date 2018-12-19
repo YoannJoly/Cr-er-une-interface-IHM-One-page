@@ -200,3 +200,80 @@ header {
 .ios button {
     border-radius: 30px;
 }
+
+.contact h1{
+    margin-top: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #242320
+}
+
+.nom {
+    grid-area: n;
+    background-color: white;
+}
+
+.prenom {
+    grid-area: p;
+    background-color: white;
+}
+
+.postal {
+    grid-area: po;
+    background-color: white;
+}
+
+.mail {
+    grid-area: m;
+    background-color: white;
+
+}
+
+.sujet {
+    grid-area: s;
+    background-color: white;
+}
+
+.message {
+    grid-area: ms;
+}
+
+.contactform {
+    display: grid;
+    width: 60vw;
+    height: 50vh;
+    margin-top: 3vh;
+    margin-left: 20vw;
+    grid-template-areas: "n p"
+                         "po po"
+                         "m m"
+                         "s s"
+                         "ms ms"
+                         "ms ms"
+                         "ms ms"
+                         "ms ms"
+                         "ms ms"   
+}
+
+.contactform textarea {
+    background-color: white;
+}
+
+footer {
+    margin-top: 10vh;
+    justify-content: space-around;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey
+}
+
+footer label {
+    text-decoration: none;
+    color: grey
+}
+
+
+
+
