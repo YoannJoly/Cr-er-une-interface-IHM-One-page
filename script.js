@@ -11,9 +11,7 @@ jQuery(function(){
     });
   
 $(function() {
-    /**
-    * Smooth scrolling to page anchor on click
-    **/
+    
     $("a[href*='#']:not([href='#'])").click(function() {
         if (
             location.hostname == this.hostname
